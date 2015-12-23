@@ -1,3 +1,5 @@
+#ifndef EXER04_01_03_H
+#define EXER04_01_03_H
 #include <iostream>
 #include <utility>
 #include <type_traits>
@@ -84,3 +86,4 @@ auto find_max_subarray(It beg, It end) ->
 			return ret_mid;
 	}
 }
+#endif
